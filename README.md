@@ -34,7 +34,7 @@ sudo update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_162/bin/javac
 Start WSO2-IS with the following command (from the root of the test environment):
 
 ```
-$ sh apps/metagen-idp-is/bin/wso2server.sh start
+$ sh identity-server/bin/wso2server.sh start &
 ```
 for windows environments use the .bat
 
